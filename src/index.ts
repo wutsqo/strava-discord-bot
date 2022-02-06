@@ -1,1 +1,5 @@
-console.log("Hello world!");
+import bot from "./bot";
+import server from "./server";
+
+bot.start();
+server.start();
